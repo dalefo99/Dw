@@ -1,0 +1,287 @@
+﻿@page
+@model Dogwood.Pages.InformationModel
+@{
+    ViewData["Title"] = "Information";
+}
+
+
+
+<header>
+    @Html.Partial("_MainNavigation")
+
+    <!-- Full Screen Hero -->
+    <div id="introHero" class="module view" data-background="/images/wilmington-wedding-photography-header-001.jpg">
+        <div class="container-fluid mask rgba-white-light d-flex align-items-end justify-content-center">
+            <div class="module-tagline text-center">
+                <h5 class="dw-font-alt text-muted my-4">Dogwood Photography  <i class="fa fa-camera-retro"></i>  Durham, NC</h5>
+            </div>
+        </div>
+    </div>
+    <!-- /HERO -->
+</header>
+
+
+<main>
+
+
+    <section class="section-content container-fluid">
+
+        <div class="card m-5">
+
+            <ul class="nav nav-tabs dw-font-alt-heading" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">About Dogwood</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="shootshare-tab" data-toggle="tab" href="#shootshare" role="tab" aria-controls="shootshare" aria-selected="false">Shoot & Share</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="photographer-tab" data-toggle="tab" href="#photographer" role="tab" aria-controls="photographer" aria-selected="false">Meet the Photographers</a>
+                </li>
+            </ul>
+
+            <div class="card-body">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="about" role="tabpanel">
+                        <div class="row">
+                            <div class="col d-none d-md-block">
+                                <img class="img-fluid pull-left px-2" alt="Durham NC Wedding Photography Bride Picture" src="~/images/lovebeachweddings.jpg" />
+                            </div>
+                            <div class="col-xs-12 col-md-9">
+                                <h3>Shoot. Share. Simple</h3>
+                                <p>Dogwood Photography is a "Shoot & Share” Durham photography studio. Shoot & Share is a way of doing business that puts the focus on the client, not print sales. We shoot the images, and we share the images. Simple. Based out of Durham, NC, Dogwood Photography has been photographing weddings in North Carolina for over 7 years. We chose the name Dogwood Photography after moving the photography business from the Kansas City, Missouri Area to North Carolina in 2011. The Dogwood is the state tree of Missouri, and the State Flower of North Carolina making it the perfect fit to describe our journey.</p>
+                                <h3>Our Philosophy</h3>
+                                <p>One of the most heartbreaking thing we have heard over the years from couples is that they loved us, but that we were simply out of their photography budget. This has really stuck with us, so we have decided to focus on just what is essential to ensure our couple’s photographs are amazing. We use top of the line cameras, lenses, and lights; and we have insurance and full backups.  Every decision we make, we ask ourselves is this improves the experience of couples working with Dogwood Photography. We are not budget photography, but we are trying to be affordable photography.</p>
+                                <p>At Dogwood, we understand the frustration of trying to find the perfect photographer for your wedding, so we put everything up front and easy to find.  We put our photography pricing right on the website, so you can make an informed decision about your wedding photography needs.  We have moved everything online from contract signage to image delivery to not only reduce paper usage, but to make it super simple for you!</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="shootshare" role="tabpanel">
+
+                        <div id="shootshare" class="white-popup mfp-hide">
+                            <h3>What is Shoot & Share?</h3>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-9">
+                                    <p>Shoot & Share is an exciting new way of doing business that is sweeping through the photography world like a storm. Shoot and Share puts the focus on the client, not the sales. We shoot the images, and then we share the images, in high resolution. Simple.</p>
+                                    <p>Traditional photography pricing is a leftover relic from the analog (film) days. In the analog days a photographer charged you a sitting fee to take your photo. That sitting fee covered time and talent, as well as the cost of developing the negatives, and creating proof sheets. You then came back into the studio a couple of weeks later to look at the proof sheets, and pick the photos you wanted prints of. The photographer headed into the dark room to create the prints, a laborious and time consuming process. This is why prints were so expensive. That process evolved into the traditional photography sales model of charging a small sitting fee, then an exorbitant price on prints. In the digital world, that pricing model doesn't make any sense! The whole process has changed. Much more of the work is up front. When you see your images my work on them is already all done.</p>
+                                    <p>In the last couple of years, Shoot &amp; Share has been gaining popularity.  At first I thought it was crazy. Then I thought it was just a fad. Then I realized it was better. <em> And that is why I am changing.</em></p>
+                                    <p>The new pricing model is simple. I charge a single creative fee that covers my time and talent. This includes my time/talent behind the camera, as well as in front of the computer. That’s it. No crazy up-charges. No high pressure print sales. Your images are taken, edited, and then uploaded to an online gallery in high resolution for you to view, share, and download! You can share your images via social media, email, or any way you prefer. This gives me the freedom to focus on the client.</p>
+                                    <h4 class="text-center"><em>Shoot &amp; Share is NOT Shoot and Burn</em></h4>
+                                    <p>Many budget photographers practice shoot and burn. They will take pictures, and immediately burn those results right onto a DVD for you. While this may sound great, the problem with this is that digital images require some adjustment to be perfect. Shoot and Burn photographers will never provide the best rendition of the image taken because they don't take the time to do it right. In wedding photography you get what you pay for.  Shoot &amp; Share is not shoot and burn. Under Shoot &amp; Share every image has been exposure corrected, color corrected, and cropped to create a beautiful, print ready, image.</p>
+                                    <h3>But what about prints?</h3>
+                                    <p>I am a firm believer in prints, and believe photos still look their best in print. Prints are also the best way to ensure your images are around for a very, very long time! Since the cost of providing my service to you is fully covered in the creative fee, there is no high pressure sales pitch to get you to purchase overpriced prints. I offer a full range of professionally printed albums, prints, and products; and can do so at reasonable prices.  One of my <span class="highlight">favorite</span> things about Shoot &amp; Share is that I can offer you access to professional print labs, labs only professional photographers have access to, at reasonable prices.  Of course you are also free to have your images printed at your favorite consumer lab!  It is all about choice.</span></p>
+
+                                </div>
+                                <div class="col d-none d-md-block">
+                                    <img class="img-fluid pull-right px-2" alt="Wilmington NC Wedding Photography Bride Picture" src="images/wilmington-wedding-photography-001.jpg" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="photographer" role="tabpanel">
+                        <h3>Our Philosophy</h3>
+                        <p>One of the most heartbreaking thing we have heard over the years from couples is that they loved us, but that we were simply out of their photography budget. This has really stuck with us, so we have decided to focus on just what is essential to ensure our couple’s photographs are amazing. We use top of the line cameras, lenses, and lights; and we have insurance and full backups.  Every decision we make, we ask ourselves is this improves the experience of couples working with Dogwood Photography. We are not budget photography, but we are trying to be affordable photography.</p>
+                        <p>At Dogwood, we understand the frustration of trying to find the perfect photographer for your wedding, so we put everything up front and easy to find.  We put our photography pricing right on the website, so you can make an informed decision about your wedding photography needs.  We have moved everything online from contract signage to image delivery to not only reduce paper usage, but to make it super simple for you!</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <h5>
+        move phyl by itself.  Add: and weddings photographers are important to us and explain why with our own wedding fail.
+        add about dale.  a nerd who loves photography and people.. who knew it would combine into a wedding photographer. Lots of stuff about erinn
+        rewrite from my perspective instead of we.. more personable.
+
+    </h5>
+
+    <div class="module-parallax view my-5" data-background="/images/quote-background-001.jpg">
+        <div class="mask rgba-white-strong d-flex align-items-end justify-content-center">
+            <div class="text-center">
+                <h4 class="dw-font-parallax">Something old, something new<br>something borrowed, something blue<br>and a silver sixpence in her shoe.</h4>
+                <p class="dw-font-parallax-tagline">Author Unknown, 17th Century England</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-content container-fluid">
+
+            <div class="card mx-5">
+                <div class="card-body">
+                    
+                    <div class="row">
+
+                        <div class="col d-none d-md-block">
+                            <img class="img-fluid pull-left px-2" alt="Wilmington NC Wedding Photography Bride Picture" src="images/wilmington-wedding-photography-001.jpg" />
+                        </div>
+
+                        <div class="col-xs-12 col-md-9">
+                            <h3>Our Philosophy</h3>
+                            <p>My beautiful wife Erinn and I married 23 years ago, and a friend of the family volunteered to photograph the wedding as a gift to us. This was before the Internet and we just didn’t know at the time how poorly this could turn out.  The only photographs we have from our wedding are a handful of 4x6 proofs without the negatives. We don’t have enough pictures to make an album, and we can’t get them enlarged to hang on the wall. I don’t remember what the reception looked like anymore.  This is what drives me today. This is why I strive to be the best I can, and to preserve those memories for others.</p>
+                            <p>One of the most heartbreaking thing I have heard over the years from couples is that they loved our photography, but that we were simply out of their photography budget.  Because of that we are doing what we can to keep our offering affordable. We are not cheap photography; we have professional level cameras, lighting, backup gear, and insurance. But we are trying to be affordable photography. We have decided to focus on just what is essential to ensure our couple’s photographs are amazing. Every decision we make, we ask ourselves is this improves the experience of couples working with Dogwood Photography. </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+    </section>
+
+    <div class="module-parallax view my-5" data-background="/images/quote-background-002.jpg">
+        <div class="mask rgba-white-strong d-flex align-items-end justify-content-center">
+            <div class="text-center">
+                <h4 class="dw-font-parallax">Something old, something new<br>something borrowed, something blue<br>and a silver sixpence in her shoe.</h4>
+                <p class="dw-font-parallax-tagline">Author Unknown, 17th Century England</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="container-fluid px-5 py-5">
+        <div class="my-5">
+            <h2 class="text-center">Wedding Photography Packages</h2>
+            <p class="text-center font-italic">Custom packages available.</p>
+        </div>
+        <div class="card-deck">
+
+            <div class="card">
+                <div class="card-header text-center">Pine</div>
+
+                <div class="card-body">
+                    <h4 class="text-center">$1500</h4>
+                    <p class="card-text text-center "><small class="text-muted">Includes up to 6 hours of coverage</br><span class="font-italic">Additional Hours $200/hr</span></small></p>
+                    <ul>
+                        <li class="card-text">One Photographer</li>
+                        <li class="card-text">High Resolution, Print Ready, Digital Images without Watermarks</li>
+                        <li class="card-text">Online gallery for sharing and downloading</li>
+                        <li class="card-text">Print Release</li>
+                        <li class="card-text">Additional hours of coverage available for $200/hour</li>
+                    </ul>
+                </div>
+
+                <div class="card-footer bg-white text-center text-muted">
+                    <small class="card-text">
+                        À la carte ordering of albums, gallery wraps, products, and prints available.
+                        <br /><span class="font-italic">Tax Not Included</span>
+                    </small>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-header text-center">Oak</div>
+
+                <div class="card-body">
+                    <h4 class="text-center">$1900</h4>
+                    <p class="card-text text-center"><small class="text-muted">Includes up to 6 hours of coverage</small></p>
+                    <ul>
+                        <li class="card-text">Two Photographers</li>
+                        <li class="card-text">High Resolution, Print Ready, Digital Images without Watermarks</li>
+                        <li class="card-text">Online gallery for sharing and downloading</li>
+                        <li class="card-text">Print Release</li>
+                        <li class="card-text">Complementary Engagement Session</li>
+                        <li class="card-text">Additional hours of coverage available for $200/hour</li>
+                    </ul>
+                </div>
+
+                <div class="card-footer bg-white text-center text-muted">
+                    <small class="card-text">
+                        À la carte ordering of albums, gallery wraps, products, and prints available.
+                        <br /><span class="font-italic">Tax Not Included</span>
+                    </small>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-header text-center">Dogwood</div>
+
+                <div class="card-body">
+                    <h4 class="text-center">$2800</h4>
+                    <p class="card-text text-center"><small class="text-muted">Includes up to 6 hours of coverage</small></p>
+                    <ul>
+                        <li class="card-text">Two Photographers</li>
+                        <li class="card-text">High Resolution, Print Ready, Digital Images without Watermarks</li>
+                        <li class="card-text">Online gallery for sharing and downloading</li>
+                        <li class="card-text">Print Release</li>
+                        <li class="card-text">Complementary Engagement Session</li>
+                        <li class="card-text"><em>12X12" Leatherbound Heirloom Quality 30 page wedding album</em></li>
+                        <li class="card-text">Additional hours of coverage available for $200/hour</li>
+                    </ul>
+                </div>
+
+                <div class="card-footer bg-white text-center text-muted">
+                    <small class="card-text">
+                        À la carte ordering of albums, gallery wraps, products, and prints available.
+                        <br /><span class="font-italic">Tax Not Included</span>
+                    </small>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <div class="module-parallax view my-5" data-background="/images/quote-background-003.jpg">
+        <div class="mask rgba-white-strong d-flex align-items-end justify-content-center">
+            <div class="dw-font-parallax text-center flex-center">
+                <div id="reviews" class="carousel slide flex-center" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#reviews" data-slide-to="0" class="active"></li>
+                        <li data-target="#reviews" data-slide-to="1"></li>
+                        <li data-target="#reviews" data-slide-to="2"></li>
+                        <li data-target="#reviews" data-slide-to="3"></li>
+                        <li data-target="#reviews" data-slide-to="4"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p class="dw-font-parallax">...every one of the pictures were stunning!</p>
+                            <p class="dw-font-parallax-tagline">Cinthya & Edwin</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="dw-font-parallax">One word...AMAZING! Dale will be more than a photographer, he will be your friend. His work and personality are outstanding.</p>
+                            <p class="dw-font-parallax-tagline">Amber & Ryan</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="dw-font-parallax">If any one can make my camera shy groom smile in pictures, they have to be good- and Dale went above and beyond good!</p>
+                            <p class="dw-font-parallax-tagline">Kelly & Collin</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="dw-font-parallax">Dale is amazing! I am able to look at my photographs from my wedding and feel like I am there all over again!</p>
+                            <p class="dw-font-parallax-tagline">John & Alexandria</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="dw-font-parallax">We can't imagine working with anyone else!</p>
+                            <p class="dw-font-parallax-tagline">Lisa</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+</main>
+
+
+

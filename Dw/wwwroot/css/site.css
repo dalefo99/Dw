@@ -1,37 +1,273 @@
-/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
-for details on configuring this project to bundle and minify static web assets. */
-body {
-    padding-top: 50px;
+html,
+body
+ {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dw-font {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.25em;
+}
+
+.dw-font-alt {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .6em;
+}
+
+.dw-font-alt-heading {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.dw-font-menu {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+}
+
+.fullscreen-header {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-content {
+    padding-top: 20px;
+
+}
+
+#intro {
+    height: 100%;
+    background: url('../images/frontimage.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.module {
+    padding: 280px 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.module-tagline {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.module-parallax {
+    padding: 220px 0;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dw-font-parallax {
+    color: #333;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+
+.dw-font-parallax-tagline {
+    color: #555;
+    font-family: serif;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: .1em;
+}
+
+
+
+
+
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+#myImgModal .modal-body {
+    background-color: black;
+}
+
+.modal-dialog {
+
+    max-width: 1280px;
+    margin: 30px auto;
+}
+
+.modal-content {
+    background-color: black;
+}
+
+
+
+.close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+}
+
+
+#myImgModal img {
+    display: block;
+    max-height: 92vh;
+    margin:0px auto;
+}
+
+
+.loader-ellips {
+    font-size: 20px; /* change size here */
+    position: relative;
+    width: 4em;
+    height: 1em;
+    margin: 10px auto;
+}
+
+.loader-ellips__dot {
+    display: block;
+    width: 1em;
+    height: 1em;
+    border-radius: 0.5em;
+    background: #555; /* change color here */
+    position: absolute;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+    .loader-ellips__dot:nth-child(1),
+    .loader-ellips__dot:nth-child(2) {
+        left: 0;
+    }
+
+    .loader-ellips__dot:nth-child(3) {
+        left: 1.5em;
+    }
+
+    .loader-ellips__dot:nth-child(4) {
+        left: 3em;
+    }
+
+@keyframes reveal {
+    from {
+        transform: scale(0.001);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes slide {
+    to {
+        transform: translateX(1.5em)
+    }
+}
+
+.loader-ellips__dot:nth-child(1) {
+    animation-name: reveal;
+}
+
+.loader-ellips__dot:nth-child(2),
+.loader-ellips__dot:nth-child(3) {
+    animation-name: slide;
+}
+
+.loader-ellips__dot:nth-child(4) {
+    animation-name: reveal;
+    animation-direction: reverse;
+}
+
+
+
+
+    /* reveal grid after images loaded */
+.grid.are-images-unloaded {
+        opacity: 0;
+    }
+
+
+.grid-item,
+.grid-sizer {
+    width: 32.332%;
+}
+
+.grid-gutter-sizer {
+    width: 1%;
+}
+
+
+
+/* hide by default */
+.grid.are-images-unloaded .image-grid-item {
+    opacity: 0;
+}
+
+
+.grid-item {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 20px;
 }
 
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.grid-item img {
+    display: block;
+    max-width: 100%;
 }
 
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
+.grid-item-content {
+
 }
 
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
+
+.page-load-status {
+    display: none; /* hidden by default */
+    padding-top: 20px;
+    border-top: 1px solid #DDD;
+    text-align: center;
+    color: #777;
 }
 
-/* QR code generator */
-#qrCode {
-    margin: 15px;
+
+.accordion .card-header:before {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    padding-right: 1em;
+    float: left;
 }
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
+.accordion .card-header.collapsed:before {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
 }

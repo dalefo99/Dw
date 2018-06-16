@@ -5,7 +5,907 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\informationold.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-10.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-100.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-11.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-12.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-13.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-14.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-15.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-16.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-17.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-18.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-19.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-20.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-21.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-22.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-23.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-24.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-25.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-26.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-27.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-28.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-29.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-30.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-31.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-32.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-33.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-34.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-35.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-36.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-37.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-38.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-39.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-4.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-40.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-41.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-42.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-43.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-44.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-45.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-46.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-47.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-48.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-49.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-5.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-50.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-51.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-52.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-53.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-54.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-55.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-56.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-57.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-58.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-59.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-6.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-60.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-61.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-62.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-63.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-64.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-65.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-66.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-67.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-68.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-69.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-7.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-70.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-71.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-72.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-73.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-74.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-75.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-76.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-77.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-78.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-79.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-8.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-80.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-81.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-82.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-83.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-84.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-85.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-86.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-87.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-88.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-89.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-9.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-90.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-91.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-92.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-93.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-94.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-95.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-96.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-97.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-98.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\2\dickerson-99.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-10.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-100.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-101.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-102.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-103.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-104.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-105.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-106.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-107.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-108.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-109.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-11.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-110.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-111.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-112.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-113.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-114.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-115.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-116.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-117.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-118.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-119.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-12.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-120.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-121.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-122.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-123.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-124.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-125.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-126.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-127.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-128.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-129.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-13.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-130.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-131.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-132.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-133.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-134.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-135.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-136.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-137.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-138.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-139.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-14.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-140.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-141.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-142.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-143.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-144.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-145.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-146.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-147.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-148.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-149.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-15.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-150.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-151.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-152.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-153.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-154.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-155.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-156.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-157.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-158.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-159.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-16.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-160.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-161.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-162.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-163.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-164.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-165.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-166.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-167.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-168.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-169.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-17.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-170.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-171.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-172.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-173.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-174.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-175.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-176.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-177.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-178.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-179.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-18.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-180.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-181.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-182.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-183.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-184.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-185.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-186.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-187.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-188.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-189.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-19.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-190.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-191.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-192.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-193.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-194.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-195.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-196.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-197.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-198.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-199.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-20.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-200.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-201.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-202.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-203.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-204.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-205.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-206.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-207.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-208.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-209.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-21.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-210.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-211.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-212.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-213.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-214.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-215.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-216.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-217.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-218.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-219.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-22.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-220.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-221.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-222.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-223.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-224.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-225.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-226.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-227.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-228.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-229.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-23.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-230.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-231.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-232.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-233.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-234.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-235.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-236.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-237.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-238.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-239.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-24.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-240.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-241.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-242.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-243.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-244.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-245.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-246.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-247.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-248.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-249.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-25.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-250.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-251.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-252.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-253.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-254.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-255.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-256.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-257.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-258.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-259.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-26.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-260.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-261.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-262.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-263.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-264.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-265.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-266.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-267.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-268.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-269.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-27.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-270.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-271.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-272.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-273.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-274.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-275.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-276.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-277.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-278.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-279.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-28.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-280.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-281.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-282.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-283.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-284.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-285.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-286.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-287.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-288.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-289.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-29.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-290.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-291.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-292.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-293.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-294.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-295.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-296.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-297.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-298.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-299.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-30.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-300.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-301.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-302.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-303.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-304.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-305.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-306.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-307.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-308.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-309.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-31.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-310.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-311.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-312.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-313.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-314.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-315.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-316.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-317.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-318.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-319.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-32.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-320.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-321.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-322.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-323.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-324.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-325.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-326.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-327.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-328.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-329.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-33.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-330.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-331.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-332.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-333.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-334.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-335.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-336.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-337.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-338.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-339.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-34.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-340.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-341.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-342.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-343.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-344.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-345.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-346.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-347.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-348.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-349.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-35.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-350.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-351.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-352.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-353.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-354.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-355.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-356.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-357.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-358.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-359.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-36.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-360.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-361.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-37.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-38.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-39.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-4.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-40.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-41.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-42.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-43.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-44.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-45.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-46.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-47.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-48.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-49.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-5.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-50.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-51.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-52.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-53.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-54.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-55.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-56.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-57.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-58.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-59.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-6.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-60.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-61.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-62.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-63.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-64.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-65.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-66.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-67.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-68.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-69.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-7.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-70.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-71.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-72.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-73.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-74.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-75.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-76.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-77.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-78.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-79.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-8.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-80.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-81.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-82.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-83.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-84.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-85.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-86.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-87.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-88.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-89.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-9.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-90.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-91.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-92.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-93.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-94.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-95.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-96.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-97.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-98.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\mansfield-99.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="4.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Pages\About.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Pages\Contact.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Pages\Error.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Pages\Index.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Pages\Information.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Pages\Portpages.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Pages\_Layout.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Pages\_MainNavigation.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Pages\_ValidationScriptsPartial.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Pages\_ViewImports.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Pages\_ViewStart.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="wwwroot\css\bootstrap.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\css\bootstrap.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\css\mdb.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\css\mdb.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\css\site.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\css\site.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\css\style.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\favicon.ico">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Bold.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Bold.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Bold.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Bold.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Light.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Light.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Light.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Light.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Medium.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Medium.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Medium.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Medium.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Regular.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Regular.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Regular.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Regular.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Thin.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Thin.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Thin.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\font\roboto\Roboto-Thin.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\banner1.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\banner2.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\banner3.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\banner4.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\dogwood-logo-2.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\feature-wedding-001.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\feature-wedding-002.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\feature-wedding-003.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\frontimage.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\lovebeachweddings.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\ppawps.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\quote-background-001.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\quote-background-002.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\quote-background-003.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\section-header-2.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\section-header-3.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\section-header-4.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\wilmington-wedding-photography-001.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\wilmington-wedding-photography-header-001.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\wps.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\ww-awards.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\lightbox\default-skin.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\lightbox\default-skin.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\lightbox\preloader.gif">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\overlays\01.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\overlays\02.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\overlays\03.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\overlays\04.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\overlays\05.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\overlays\06.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\overlays\07.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\overlays\08.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\overlays\09.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\svg\arrow_left.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\img\svg\arrow_right.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\indexold.html">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\bootstrap.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\bootstrap.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\infinite-scroll.pkgd.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\jquery-3.2.1.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\masonry.pkgd.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\mdb.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\mdb.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\popper.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\site.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\site.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\.bower.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\js\bootstrap.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\js\npm.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\LICENSE">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery-validation-unobtrusive\.bower.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery-validation\.bower.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery-validation\dist\additional-methods.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery-validation\dist\jquery.validate.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery-validation\LICENSE.md">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery\.bower.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery\dist\jquery.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery\dist\jquery.min.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery\LICENSE.txt">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\core\bootstrap\_functions.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\core\bootstrap\_variables.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\core\_colors.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\core\_global.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\core\_helpers.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\core\_masks.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\core\_mixins.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\core\_typography.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\core\_variables.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\core\_waves.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_animations-basic.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_animations-extended.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_badges.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_buttons.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_cards.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_carousels.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_dropdowns.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_footers.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_forms.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_input-group.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_list-group.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_modals.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_msc.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_navbars.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_pagination.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\free\_tables.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\mdb.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\_custom.scss">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

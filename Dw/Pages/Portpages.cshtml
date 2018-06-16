@@ -1,0 +1,27 @@
+﻿@page "{Id}"
+@model Dogwood.Pages.PortpagesModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Portpages</title>
+</head>
+<body>
+    <div class="grid are-images-unloaded">
+        <div class="grid-sizer"></div>
+        <div class="grid-gutter-sizer"></div>
+        @foreach (var item in Model.imageLinks)
+    {
+        <div class="grid-item">
+            @Html.Raw(item)
+        </div>
+}
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Dogwood</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="~/css/mdb.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+   
+    <!-- MDB core JavaScript -->
+    <script src="~/js/infinite-scroll.pkgd.min.js"></script>
+    <script src="~/js/masonry.pkgd.min.js"></script>
+
+
+
+</head>
+<body>
+
+    @RenderBody()
+
+    <!-- MDB JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <footer>
+
+        <div class="container pt-5">
+            <hr class="my-5" />
+            <div class="row pt-1">
+                <div class="col-md-3">
+                    <h5>Dogwood Photography</h5>
+                    <div class="footer-description">
+                        <p>
+                            ~ Durham, NC ~
+                            <br />info@dogwood.photography
+                            <br />910-216-0019
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h5>We're Social!</h5>
+                    <p class="social-icon-links">
+                        <a target="_blank" href="https://www.facebook.com/dogwoodnc" onclick="ga('send', 'pageview', '/socialclick');"><i class="fa fa-facebook heading-c"></i></a>
+                        <a target="_blank" href="https://www.flickr.com/photos/kcdale99" onclick="ga('send', 'pageview', '/socialclick');"><i class="fa fa-flickr heading-c"></i></a>
+                        <a target="_blank" href="https://plus.google.com/+Dogwood-photography" onclick="ga('send', 'pageview', '/socialclick');"><i class="fa fa-google-plus heading-c"></i></a>
+                        <a target="_blank" href="https://instagram.com/dale_dogwoodphotography/" onclick="ga('send', 'pageview', '/socialclick');"><i class="fa fa-instagram heading-c"></i></a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Memberships</h5>
+                    <a href="http://www.ppa.com" target="_blank"><img alt="Awards" src="../images/ppawps.png" title="Awards" class="img-responsive"></a>
+                </div>
+                <div class="col-md-3">
+                    <h5>Accolades</h5>
+                    <a href="http://www.weddingwire.com/biz/dogwood-photography-wilmington/248b95808c36cf9c.html" target="_blank"><img alt="Awards" src="../images/ww-awards.png" title="Awards" class="img-responsive"></a>
+                </div>
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-sm-12">
+
+                    <p class="copyright text-center m-b-0"><br />©2018 <a href="#">Dogwood Photography</a>, All Rights Reserved.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+</body>
+</html>
