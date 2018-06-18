@@ -260,14 +260,7 @@ body
 }
 
 
-.accordion .card-header:before {
-    font-family: 'FontAwesome';
-    content: "\f068";
-    padding-right: 1em;
-    float: left;
-}
+.max1200 {
+    max-width: 1200px;
 
-.accordion .card-header.collapsed:before {
-    /* symbol for "collapsed" panels */
-    content: "\f067";
 }
