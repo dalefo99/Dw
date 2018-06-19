@@ -1,19 +1,111 @@
 ﻿@page
-@model ContactModel
+@model Dogwood.Pages.ContactModel
 @{
     ViewData["Title"] = "Contact";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@Model.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
 
-<address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<header>
+    @Html.Partial("_MainNavigation")
+
+    <!-- Full Screen Hero -->
+    <div id="introHero" class="module view" data-background="/images/wilmington-wedding-photography-header-001.jpg">
+        <div class="container-fluid mask rgba-white-light d-flex align-items-end justify-content-center">
+            <div class="module-tagline text-center">
+                <h5 class="dw-font-alt text-muted my-4">Dogwood Photography  <i class="fa fa-camera-retro"></i>  Durham, NC</h5>
+            </div>
+        </div>
+    </div>
+    <!-- /HERO -->
+</header>
+
+
+<main>
+
+
+    @if (ViewData["Test"] != null)
+    {
+        <h1>@ViewData["Test"]</h1>
+    }
+
+
+    <section class="section-content container-fluid p-5">
+
+        <div class="row m-5">
+            <div class="col-xs-12 col-md-3 pl-5">
+                <address>
+                    Dogwood Photography<br />
+                    Durham, NC<br />
+                    <abbr title="Phone">P:</abbr>
+                    910-216-0019
+                </address>
+
+                <address>
+                    <strong>Email:</strong> <a href="mailto:info@dogwood.photography">Support@example.com</a><br />
+                </address>
+
+            </div>
+            <div class="col-xs-12 col-md-9">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3>Contact us</h3>
+                            </div>
+                        </div>
+                        <form class="form form-horizontal" method="post">
+                            <div asp-validation-summary="All"></div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label asp-for="Contact.Name" class="col-md-3 right">Name:</label>
+                                        <div class="col-md-9">
+                                            <input asp-for="Contact.Name" class="form-control" />
+                                            <span asp-validation-for="Contact.Name"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label asp-for="Contact.Email" class="col-md-3 right">Email:</label>
+                                        <div class="col-md-9">
+                                            <input asp-for="Contact.Email" class="form-control" />
+                                            <span asp-validation-for="Contact.Email"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label asp-for="Contact.Message" class="col-md-3 right">Your Message:</label>
+                                        <div class="col-md-9">
+                                            <textarea asp-for="Contact.Message" rows="6" class="form-control"></textarea>
+                                            <span asp-validation-for="Contact.Message"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button type="submit">Send</button>
+                                </div>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+</main>
