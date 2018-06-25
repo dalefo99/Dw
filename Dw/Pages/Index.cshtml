@@ -1,7 +1,9 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home/Portfolio";
+    ViewData["Description"] = "Dogwood Photography is a wedding photography studio located in Durham, NC and provides photography for Raleigh, Durham, Cary, Chapel Hill, and surrounding Triangle Areas";
+    ViewData["URL"] = "https://" + @Request.Host + @Request.Path;
 }
 
 
@@ -17,7 +19,7 @@
                     <hr class="hr-white" />
                     <h5 class="dw-font-alt text-muted my-4">Wedding Photography  <i class="fa fa-camera-retro"></i>  Durham, NC</h5>
                     <button id="mainbtn" class="btn btn-outline-blue-grey">Enter</button>
-                        
+
                 </div>
             </div>
         </div>
@@ -93,7 +95,7 @@
                     <div class="grid-sizer"></div>
 
                     <div class="grid-item">
-                        <img class='modalClick' src='/images/portfolio/mansfield-1.jpg'  alt='Durham Wedding Photography' />
+                        <img class='modalClick' src='/images/portfolio/mansfield-1.jpg' alt='Durham Wedding Photography' />
                     </div>
 
 
@@ -153,7 +155,7 @@
 
         </div>
     </div>
-</div> 
+</div>
 
 
 <script>
@@ -172,7 +174,7 @@
 
     //get Masonry instance
     var msnry = $grid.data('masonry');
-    
+
     // initial items reveal
     $grid.imagesLoaded(function () {
         $grid.removeClass('are-images-unloaded');
@@ -187,17 +189,17 @@
         '/Portpages/2',
         '/PortPages/3',
     ];
-    
+
     function getNextPage() {
         var page = nextPage[this.loadCount];
         if (page) {
             return page;
         }
     }
-    
+
     //-------------------------------------//
     // init Infinte Scroll
-    
+
     $grid.infiniteScroll({
         path: getNextPage,
         history: false,
