@@ -58,11 +58,9 @@ namespace Dogwood.Pages
                 message.Subject = "New E-Mail from my website";
                 message.Body = mailbody;
 
-                //await smtpClient.SendMailAsync(message);
+                await smtpClient.SendMailAsync(message);
             }
 
-
-            System.Threading.Thread.Sleep(5000);
 
             //return RedirectToPage("Contact");
             ViewData["Sent"] = "Message Successfully Sent!";

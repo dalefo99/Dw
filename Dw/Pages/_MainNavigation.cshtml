@@ -22,30 +22,31 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/Information">Information</a>
+                    <a class="nav-link" asp-page="/Information">Information</a>
                 </li>
 
 
                 <!--li-- class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information</a>
-                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" asp-page="/Information">Information/Pricing</a>
-                        <a class="dropdown-item" href="#">About</a>
-                        <a class="dropdown-item" href="#">Details and Pricing</a>
-                    </div>
-                </!--li-->
-                <li class="nav-item">
-                    <a class="nav-link" href="/Contact">Contact</a>
-                </li>
-
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" asp-page="/Information">Information/Pricing</a>
+            <a class="dropdown-item" href="#">About</a>
+            <a class="dropdown-item" href="#">Details and Pricing</a>
+        </div>
+    </!--li-->
                 <!-- For Photographers -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For Photographers</a>
                     <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/52weekchallenge">52 Photography Challenge (2016)</a>
-                        <a class="dropdown-item" href="/52weekchallenge2017">52 Photography Challenge (2017)</a>
+                        <a class="dropdown-item" asp-page="/52weekchallenge">52 Photography Challenge (2016)</a>
+                        <a class="dropdown-item" asp-page="/52weekchallenge2017">52 Photography Challenge (2017)</a>
                         <a class="dropdown-item" href="#">52 Photography Challenge (2018)</a>
                     </div>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-page="/Contact">Contact</a>
                 </li>
 
 
