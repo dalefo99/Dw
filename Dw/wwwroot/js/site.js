@@ -4,9 +4,9 @@ $(document).ready(function () {
 
     modules = $('.module-hero, .module, .module-small, .module-parallax'),
 
-    $("#mainbtn").click(function () {
-       $("html,body").animate({ scrollTop: $('#intro').prop("scrollHeight") }, 1000);
-    });
+   //$("#mainbtn").click(function () {
+   //   $("html,body").animate({ scrollTop: $('#intro').prop("scrollHeight") }, 1000);
+   //});
 
     $('.modalClick').on('click', function () {
         var sr = $(this).attr('src');

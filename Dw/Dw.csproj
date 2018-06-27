@@ -479,6 +479,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Update="Pages\52weekchallenge2018.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
     <Content Update="Pages\52weekchallenge2017.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>

@@ -2,6 +2,8 @@
 @model Dogwood.Pages.ContactModel
 @{
     ViewData["Title"] = "Contact";
+    ViewData["Description"] = "Contact Page for Dogwood Photography, wedding photography studio located in Durham, NC and provides photography for Raleigh, Durham, Cary, Chapel Hill, and surrounding Triangle Areas";
+    ViewData["URL"] = "https://" + @Request.Host + @Request.Path;
 }
 
 
@@ -94,7 +96,7 @@
                                     }
                                     else
                                     {
-                                       <input type="submit" name="SUBMIT" value="Email Sent" disabled/> <span> Thanks for contacting us!</span>
+                                        <input type="submit" name="SUBMIT" value="Email Sent" disabled /> <span> Thanks for contacting us!</span>
 
                                     }
 

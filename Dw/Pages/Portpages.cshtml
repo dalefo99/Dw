@@ -13,12 +13,14 @@
 </head>
 <body>
     <div class="grid are-images-unloaded">
-        <div class="grid-sizer"></div>
-        <div class="grid-gutter-sizer"></div>
+        <div class="grid-sizer col-12 col-sm-6 col-md-4"></div>
+
         @foreach (var item in Model.imageLinks)
     {
-        <div class="grid-item">
-            @Html.Raw(item)
+        <div class="grid-item col-12 col-sm-6 col-md-4">
+            <div class="grid-item-content pb-4">
+                @Html.Raw(item)
+            </div>
         </div>
 }
 
