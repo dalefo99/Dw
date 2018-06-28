@@ -264,3 +264,9 @@ body
 .font-alt {
     white-space: nowrap;
 }
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

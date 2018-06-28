@@ -12,12 +12,19 @@ namespace Dogwood.Pages
         public int Id { get; set; }
         public List<string> imageLinks = new List<string>();
 
-
+        
         public void OnGet(int id)
         {
 
+
+            var studioLocation = new List<string> { "Durham", "Raleigh", "Raleigh-Durham", "Durham, NC", "Raleigh, NC", "Raleigh-Durham, NC" };
+            var studioType = new List<string> { "Wedding Photography", "Wedding Photographer", "Wedding Photos" };
+
             int start = 11;
             int end = 40;
+
+            int locCounter = 0;
+            int typeCounter = 0;
             
 
             //start = (25 * id) + 1;
@@ -25,8 +32,15 @@ namespace Dogwood.Pages
 
             for (int i = start; i <= end; i++)
             {
-                string imageLink = string.Format("<img class='modalClick' src = '../images/portfolio/mansfield-{0}.jpg' alt = 'Durham Wedding Photography " + i.ToString() + "' />", i);
+                string imageLink = string.Format("<img class='modalClick' src = '../images/portfolio/mansfield-{0}.jpg' alt = '{1} {2}' />", i, studioLocation[locCounter], studioType[typeCounter]);
                 imageLinks.Add(imageLink);
+
+
+                locCounter = (locCounter >= studioLocation.Count - 1) ? 0 : ++locCounter;
+                typeCounter = (typeCounter >= studioType.Count - 1) ? 0 : ++typeCounter;
+
+
+
             }
 
         }
