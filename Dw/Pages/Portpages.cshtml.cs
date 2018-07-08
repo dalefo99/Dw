@@ -17,22 +17,27 @@ namespace Dogwood.Pages
         {
 
 
+
             var studioLocation = new List<string> { "Durham", "Raleigh", "Raleigh-Durham", "Durham, NC", "Raleigh, NC", "Raleigh-Durham, NC" };
             var studioType = new List<string> { "Wedding Photography", "Wedding Photographer", "Wedding Photos" };
 
-            int start = 11;
-            int end = 40;
+            //int start = 1;
+            //int end = 40;
 
             int locCounter = 0;
             int typeCounter = 0;
-            
 
-            //start = (25 * id) + 1;
-            //end = start + 24;
+
+            int start = (12 * id)  + 1;
+            int end = start + 11;
+
+
+            //int start = (25 * id); // + 1;
+            //int end = start + 24;
 
             for (int i = start; i <= end; i++)
             {
-                string imageLink = string.Format("<img class='modalClick' src = '../images/portfolio/mansfield-{0}.jpg' alt = '{1} {2}' />", i, studioLocation[locCounter], studioType[typeCounter]);
+                string imageLink = string.Format("<img class='modalClick' src = '../images/portfolio/raleigh-durham-wedding-photography-{0}.jpg' alt = '{1} {2}' />", i, studioLocation[locCounter], studioType[typeCounter]);
                 imageLinks.Add(imageLink);
 
 

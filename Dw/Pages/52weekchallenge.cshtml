@@ -1,12 +1,15 @@
 ﻿@page
 @{
     ViewData["Title"] = "52 Week Photography Challenge";
+    ViewData["Description"] = "Take your photography to the next level with this 52 week photography challenge presented by Dogwood Photography";
+    ViewData["URL"] = "https://" + @Request.Host + @Request.Path;
+    ViewData["ChallengePage"] = "True";
 }
 <header>
     @Html.Partial("_MainNavigation")
 
     <!-- Full Screen Hero -->
-    <div id="introHero" class="module view" data-background="/images/wilmington-wedding-photography-header-001.jpg">
+    <div id="introHero" class="module view" data-background="/images/durham-photography-header-1.jpg">
         <div class="container-fluid mask rgba-white-light d-flex align-items-end justify-content-center">
             <div class="module-tagline text-center">
                 <h5 class="dw-font-alt text-muted my-4">Dogwood Photography  <i class="fa fa-camera-retro"></i>  Durham, NC</h5>
@@ -53,7 +56,7 @@
 
     </section>
 
-    
+
     <section class="section-content container-fluid p-5">
 
         <div class="row px-5">
@@ -69,310 +72,310 @@
                     <table class="table table-striped">
 
                         <tr>
-                            <td class="font-alt">Week 1</td>
+                            <td class="text-nowrap">Week 1</td>
                             <td>Portrait: Self Portrait</td>
                             <td>Start things off right with a "selfie"! Explore the self timer setting on your camera.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 2</td>
+                            <td class="text-nowrap">Week 2</td>
                             <td>Landscape: Traditional Landscape</td>
                             <td>Shoot a beautiful landscape and share it with the world. Find a nice foreground and don't forget the sky.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 3</td>
+                            <td class="text-nowrap">Week 3</td>
                             <td>Artistic: Red</td>
                             <td>Shoot whatever inspires you. Red should be the focus of the image. Don't be afraid to be creative.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 4</td>
+                            <td class="text-nowrap">Week 4</td>
                             <td>Portrait: Headshot</td>
                             <td>You shot a selfie, now shoot a "selfie" of someone else!</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 5</td>
+                            <td class="text-nowrap">Week 5</td>
                             <td>Landscape: Black and White</td>
                             <td>Look for a scene with great contrast that will make a great black and white.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 6</td>
+                            <td class="text-nowrap">Week 6</td>
                             <td>Artistic: Candy</td>
                             <td>Your artistic interpretation this week should be inspired by something sweet. A great chance to play with macro photography.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 7</td>
+                            <td class="text-nowrap">Week 7</td>
                             <td>Portrait: Faceless</td>
                             <td>Tell someone's story without showing their face.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 8</td>
+                            <td class="text-nowrap">Week 8</td>
                             <td>Landscape: Wide Angle/Panorama</td>
                             <td>This is a great opportunity to explore panorama stitching and create a wide sweeping landscape.</td>
                         </tr>
                         <tr>
-                            <td class="font-alt">Week 9</td>
+                            <td class="text-nowrap">Week 9</td>
                             <td>Artistic: Shadows</td>
                             <td>The opposite of light is dark, the absence of light is shadow.  Interpret this into a masterpiece.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 10</td>
+                            <td class="text-nowrap">Week 10</td>
                             <td>Portrait: Environmental</td>
                             <td>Show a subject in their natural habitat. Their place of work or hobby is a great start. Tell their story with the environment</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 11</td>
+                            <td class="text-nowrap">Week 11</td>
                             <td>Landscape: Reflection</td>
                             <td>Find a way to show your landscape/natural beauty in reflection. The mirror world revealed.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 12</td>
+                            <td class="text-nowrap">Week 12</td>
                             <td>Artistic: Transportation</td>
                             <td>Our world is one defined by how we get around. Literal or interpretative, find inspiration in transportation.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 13</td>
+                            <td class="text-nowrap">Week 13</td>
                             <td>Portrait: High Key</td>
                             <td>Expose to the right and create a light, airy high key portrait.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 14</td>
+                            <td class="text-nowrap">Week 14</td>
                             <td>Landscape: Zoomed in</td>
                             <td>Most landscapes are wide sweeping images. Try an alternative and zoom in instead.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 15</td>
+                            <td class="text-nowrap">Week 15</td>
                             <td>Artistic: Metal</td>
                             <td>Cold, hard steel.  Shiny Aluminum. Or even rusted and broken down.  Find your inspiration in metal this week.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 16</td>
+                            <td class="text-nowrap">Week 16</td>
                             <td>Portrait: Movement</td>
                             <td>Most portraits are stationary, so this week explore adding some movement.  Dancing, twirling, or even hair flips.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 17</td>
+                            <td class="text-nowrap">Week 17</td>
                             <td>Landscape: Urbanscape</td>
                             <td>Most Landscapes are wide open spaces of natural beauty... this week find the beauty of the urbanscape/cityscape.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 18</td>
+                            <td class="text-nowrap">Week 18</td>
                             <td>Artistic: Texture</td>
                             <td>The artistic inspiration this week is texture.  You should almost be able to feel the image.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 19</td>
+                            <td class="text-nowrap">Week 19</td>
                             <td>Portrait: Messy</td>
                             <td>Take an amazing portrait of someone, make a mess while you are doing it.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 20</td>
+                            <td class="text-nowrap">Week 20</td>
                             <td>Landscape: Nightowl</td>
                             <td>A tripod is going to be handy this week... time to shoot a night landscape. Look for some light for the scene! Car lights, city lights, or maybe just moonlight.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 21</td>
+                            <td class="text-nowrap">Week 21</td>
                             <td>Artistic: Fantasy</td>
                             <td>Is this real life, or is this just fantasy... Your artistic inspiration this week is fantasy.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 22</td>
+                            <td class="text-nowrap">Week 22</td>
                             <td>Portrait: Hands</td>
                             <td>Usually the face is the strongest element in the frame; with the hands being second.  Make the hands the most important element in your image this week.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 23</td>
+                            <td class="text-nowrap">Week 23</td>
                             <td>Landscape: Weather</td>
                             <td>This week should be as unpredictable as the weather! Feature the weather in this week's landscape.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 24</td>
+                            <td class="text-nowrap">Week 24</td>
                             <td>Artistic: Sparkle!</td>
                             <td>Shoot what inspires you this week, just make sure it sparkles.</td>
                         </tr>
                         <tr>
-                            <td class="font-alt">Week 25</td>
+                            <td class="text-nowrap">Week 25</td>
                             <td>Portrait: Silhouette</td>
                             <td>Expose for the background and let your subject fall into shadow. Shape is important this week.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 26</td>
+                            <td class="text-nowrap">Week 26</td>
                             <td>Landscape: Simplify</td>
                             <td>Simply the scene to make your primary subject stand out.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 27</td>
+                            <td class="text-nowrap">Week 27</td>
                             <td>Artistic: Blue</td>
                             <td>You were inspired by the fiery red earlier, now be inspired by calming blue.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 28</td>
+                            <td class="text-nowrap">Week 28</td>
                             <td>Portrait: Family</td>
                             <td>Whether it's the family you are born with or the one you choose, show the world what family is to you.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 29</td>
+                            <td class="text-nowrap">Week 29</td>
                             <td>Landscape: Waterscape</td>
                             <td>Ocean, lake, river, pond, or puddle.  Make water the primary subject of this landscape.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 30</td>
+                            <td class="text-nowrap">Week 30</td>
                             <td>Artistic: Patterns</td>
                             <td>Get inspired by the rhythm that patterns bring to your images.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 31</td>
+                            <td class="text-nowrap">Week 31</td>
                             <td>Portrait: Street Candid</td>
                             <td>Candids on the street, show us life in your town through the lens.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 32</td>
+                            <td class="text-nowrap">Week 32</td>
                             <td>Landscape: Colorful</td>
                             <td>Shoot a landscape that packs as much color as you can find into the scene.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 33</td>
+                            <td class="text-nowrap">Week 33</td>
                             <td>Artistic: Collaboration</td>
                             <td>Doesn't matter what  you shoot, just do with another artist.  Share vision and ideas.  Collaborate.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 34</td>
+                            <td class="text-nowrap">Week 34</td>
                             <td>Portrait: Child</td>
                             <td>Candid or posed, capture an image of a child. Try getting down on their level for a unique perspective.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 35</td>
+                            <td class="text-nowrap">Week 35</td>
                             <td>Landscape: Nature up Close</td>
                             <td>Get up close and personal with nature in this natural beauty shot. Flowers, bees, bugs and spiders might all make great shots</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 36</td>
+                            <td class="text-nowrap">Week 36</td>
                             <td>Artistic: Food</td>
                             <td>Take your food photography to the next level. Its not lunch, its art.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 37</td>
+                            <td class="text-nowrap">Week 37</td>
                             <td>Portrait: Fashion</td>
                             <td>Avant-garde to commercial to traditional, and everything in between. The focus is the clothes this week.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 38</td>
+                            <td class="text-nowrap">Week 38</td>
                             <td>Landscape: Get Low</td>
                             <td>Time to look at the world from a different angle.  Shoot a landscape from a low point of view.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 39</td>
+                            <td class="text-nowrap">Week 39</td>
                             <td>Art: Handmade</td>
                             <td>Your artistic interpretation should be inspired by another artisan's handmade work. Literal or interpreted.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 40</td>
+                            <td class="text-nowrap">Week 40</td>
                             <td>Portrait: Sitting in a Chair</td>
                             <td>Either a formal sitting portrait or a re-interpretation of this classic. Photography your subject sitting in a chair.</td>
                         </tr>
                         <tr>
-                            <td class="font-alt">Week 41</td>
+                            <td class="text-nowrap">Week 41</td>
                             <td>Landscape: Get High</td>
                             <td>Everything looks different when you are high. Find a high perspective to shoot this landscape.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 42</td>
+                            <td class="text-nowrap">Week 42</td>
                             <td>Artistic: Minimalist</td>
                             <td>Isolate your subject using the minimalist approach. Inspire someone with your art.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 43</td>
+                            <td class="text-nowrap">Week 43</td>
                             <td>Portrait: The Elderly</td>
                             <td>Tell the story of an elderly person through the power of your camera. Capture the lines of their life.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 44</td>
+                            <td class="text-nowrap">Week 44</td>
                             <td>Landscape: A Tree</td>
                             <td>Some of the most famous landscapes in the world feature a tree. Time to see what you can do.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 45</td>
+                            <td class="text-nowrap">Week 45</td>
                             <td>Artistic: Nostalgic</td>
                             <td>Use nostalgic as your inspiration this week. Long for the moments we want recapture. The good times.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 46</td>
+                            <td class="text-nowrap">Week 46</td>
                             <td>Portrait: Backlit</td>
                             <td>The sun makes a great back light, as well as a flash.  Don't forget the fill light.  A flash or reflector can be used to fill in the subject.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 47</td>
+                            <td class="text-nowrap">Week 47</td>
                             <td>Landscape: Abandoned</td>
                             <td>Capture an image of that which others have forgotten. It may be the last image before its gone from us forever.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 48</td>
+                            <td class="text-nowrap">Week 48</td>
                             <td>Artistic: Bokeh</td>
                             <td>A shallow depth of field is often used to isolate the subject.  Create an artistic interpretation using shallow depth of field.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 49</td>
+                            <td class="text-nowrap">Week 49</td>
                             <td>Portrait: Dancing</td>
                             <td>Whether it's a professional dancer, or just some kids in the street.  Try experimenting with slow and fast shutter speed to both blur and freeze the subject.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 50</td>
+                            <td class="text-nowrap">Week 50</td>
                             <td>Landscape: Symmetrical</td>
                             <td>Often considered one of the hardest compositions to pull off, Symmetry. Challenge yourself this week by shooting a symmetrical landscape/urbanscape.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 51</td>
+                            <td class="text-nowrap">Week 51</td>
                             <td>Artistic: Art</td>
                             <td>It is time to really challenge yourself.  Your artistic interpretation should be art, about art. So meta.</td>
                         </tr>
 
                         <tr>
-                            <td class="font-alt">Week 52</td>
+                            <td class="text-nowrap">Week 52</td>
                             <td>Portrait: Another Self Portrait</td>
                             <td>For your final challenge, we end where we started. Take one last self-portrait, and be amazed at how far you have come in a year.</td>
                         </tr>
