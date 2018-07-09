@@ -121,9 +121,6 @@ body {
 
 
 
-
-
-
 .modal-body {
     position: relative;
     padding: 0px;
@@ -256,9 +253,7 @@ body {
     max-width: 100%;
 }
 
-.grid-item-content {
 
-}
 
 
 .page-load-status {
@@ -283,4 +278,10 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.spmurl 
+{
+    display: none;
+
 }

@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -33,38 +34,82 @@ namespace Dogwood.Pages
             }
             
 
-            var mailbody = $@"Hallo website owner,
-            
-            This is a new contact request from your website:
+            var mailbody = $@"         
+            New contact request from your website:
             
             Name: {Contact.Name}
             Email: {Contact.Email}
+            URL: {Contact.url}
             Message: {Contact.Message}";
 
-            var smtpClient = new SmtpClient
+
+            if (Contact.url != null)
             {
-                Host = "smtp.gmail.com", // set your SMTP server name here
-                Port = 587, // Port 
-                EnableSsl = true,
-                Credentials = new NetworkCredential("dale@foshe.org", "spuDC@mera99")
-            };
+                //Only a spammer fills out the URL, fake it.
+
+                //Thread.Sleep(1000);
+                //ViewData["Sent"] = "  Thanks for contacting us!";
+                //return Page();
+
+                var smtpClient = new SmtpClient
+                {
+                    Host = "smtp.gmail.com", // set your SMTP server name here
+                    Port = 587, // Port 
+                    EnableSsl = true,
+                    Credentials = new NetworkCredential("dale@foshe.org", "spuDC@mera99")
+                };
 
 
 
-            using (var message = new MailMessage(Contact.Email, "dale@foshe.org"))
-            {
-                message.To.Add(new MailAddress("dale@foshe.org"));
-                message.From = new MailAddress(Contact.Email);
-                message.Subject = "New E-Mail from my website";
-                message.Body = mailbody;
+                using (var message = new MailMessage(Contact.Email, "dale@foshe.org"))
+                {
+                    message.To.Add(new MailAddress("dale@foshe.org"));
+                    message.From = new MailAddress(Contact.Email);
+                    message.Subject = "Website: Dumb spammer filled out URL";
+                    message.Body =  mailbody;
 
-                await smtpClient.SendMailAsync(message);
+                    await smtpClient.SendMailAsync(message);
+                }
+
+
+                //return RedirectToPage("Contact");
+                ViewData["Sent"] = "  Thanks for contacting us!";
+                return Page();
+
+
             }
+            else
+            {
+                var smtpClient = new SmtpClient
+                {
+                    Host = "smtp.gmail.com", // set your SMTP server name here
+                    Port = 587, // Port 
+                    EnableSsl = true,
+                    Credentials = new NetworkCredential("dale@foshe.org", "spuDC@mera99")
+                };
 
 
-            //return RedirectToPage("Contact");
-            ViewData["Sent"] = "Message Successfully Sent!";
-            return Page();
+
+                using (var message = new MailMessage(Contact.Email, "dale@foshe.org"))
+                {
+                    message.To.Add(new MailAddress("dale@foshe.org"));
+                    message.From = new MailAddress(Contact.Email);
+                    message.Subject = "New E-Mail from my website";
+                    message.Body = mailbody;
+
+                    await smtpClient.SendMailAsync(message);
+                }
+
+
+                //return RedirectToPage("Contact");
+                ViewData["Sent"] = "  Thanks for contacting us!";
+                return Page();
+
+            }
+            
+
+
+
         }
     }
 
@@ -74,8 +119,13 @@ namespace Dogwood.Pages
     {
         [Required]
         public string Name { get; set; }
+
         [Required]
+        [EmailAddress]
         public string Email { get; set; }
+
+        public string url { get; set; }
+
         [Required]
         public string Message { get; set; }
     }

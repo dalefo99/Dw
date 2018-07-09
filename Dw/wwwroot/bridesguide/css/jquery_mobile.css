@@ -1,0 +1,49 @@
+
+.ui-icon-loading {
+    background: url("../img/ajax-loader.gif") repeat scroll 0 0 / 46px 46px rgba(0, 0, 0, 0);
+}
+.ui-body-a, .ui-overlay-a {
+    background: linear-gradient(#001725,#001725) repeat scroll 0 0 #222222;
+    border: 1px solid #444444;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-shadow: 0 1px 1px #111111;
+}
+.ui-loading .ui-loader {
+    display: block;
+}
+.ui-loader {
+    border: 0 none;
+    display: none;
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    z-index: 9999999;
+}
+.ui-loader-verbose {
+    box-shadow: 0 1px 1px -1px #FFFFFF;
+    height: auto;
+    margin-left: -110px;
+    margin-top: -43px;
+    opacity: 0.88;
+    padding: 10px;
+    width: 200px;
+}
+.ui-loader-verbose h1 {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+.ui-loader .ui-icon {
+    background-color: #000000;
+    border-radius: 36px 36px 36px 36px;
+    display: block;
+    height: 44px;
+    margin: 0;
+    padding: 1px;
+    width: 44px;
+}
+.ui-loader-verbose .ui-icon {
+    margin: 0 auto 10px;
+    opacity: 0.75;
+}

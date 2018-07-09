@@ -65,47 +65,59 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label asp-for="Contact.Email" class="col-md-3 right">Email:</label>
-                                        <div class="col-md-9">
-                                            <input asp-for="Contact.Email" class="form-control" />
-                                            <span asp-validation-for="Contact.Email"></span>
-                                        </div>
+                        <div class="row spmurl">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="Contact.url" class="col-md-3 right">URL (Leave this blank!):</label>
+                                    <div class="col-md-9">
+                                        <input asp-for="Contact.url" class="form-control" />
+                                        <span asp-validation-for="Contact.url"></span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label asp-for="Contact.Message" class="col-md-3 right">Your Message:</label>
-                                        <div class="col-md-9">
-                                            <textarea asp-for="Contact.Message" rows="6" class="form-control"></textarea>
-                                            <span asp-validation-for="Contact.Message"></span>
-                                        </div>
-                                    </div>
+                        </div>
+  
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label asp-for="Contact.Email" class="col-md-3 right">Email:</label>
+                                <div class="col-md-9">
+                                    <input asp-for="Contact.Email" class="form-control" />
+                                    <span asp-validation-for="Contact.Email"></span>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-12">
-
-                                    @if (ViewData["Sent"] == null)
-                                    {
-                                        <input type="submit" name="SUBMIT" value="Send" onclick="this.value='Sending...';this.disabled='disabled'; this.form.submit();" />
-                                    }
-                                    else
-                                    {
-                                        <input type="submit" name="SUBMIT" value="Email Sent" disabled /> <span> Thanks for contacting us!</span>
-
-                                    }
-
-                                </div>
-                            </div>
-                        </form>
-
-
+                        </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label asp-for="Contact.Message" class="col-md-3 right">Your Message:</label>
+                                <div class="col-md-9">
+                                    <textarea asp-for="Contact.Message" rows="6" class="form-control"></textarea>
+                                    <span asp-validation-for="Contact.Message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            @if (ViewData["Sent"] == null)
+                            {
+                                <input type="submit" name="SUBMIT" value="Send" onclick="this.value='Sending...';this.disabled='disabled'; this.form.submit();" />
+                            }
+                            else
+                            {
+                                <input type="submit" name="SUBMIT" value="Email Sent" disabled /> <span>   @ViewData["Sent"]</span>
+
+                            }
+
+                        </div>
+                    </div>
+                    </form>
+
+
+                </div>
 
 
 
