@@ -12,7 +12,10 @@ $(document).ready(function () {
         var sr = $(this).attr('src');
         $('#mimg').attr('src', sr);
         $('#myImgModal').modal('show');
-    });
+     });
+
+
+
 
 
     /* ---------------------------------------------- /*
