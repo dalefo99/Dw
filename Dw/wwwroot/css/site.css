@@ -108,7 +108,7 @@ body {
     color: #333;
     font-family: 'Dosis', sans-serif;
     text-transform: uppercase;
-    letter-spacing: .3em;
+    letter-spacing: .2em;
 }
 
 .dw-font-parallax-tagline {
@@ -284,4 +284,14 @@ body {
 {
     display: none;
 
+}
+
+.mobile-header {
+    background-image: url(../images/raleigh-durham-wedding-photography-header-1.jpg);
+    background-position: center;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }

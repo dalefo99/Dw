@@ -37,7 +37,7 @@ namespace Dogwood.Pages
 
             for (int i = start; i <= end; i++)
             {
-                string imageLink = string.Format("<a href='../images/portfolio/raleigh-durham-wedding-photography-{0}.jpg'><img src = '../images/portfolio/raleigh-durham-wedding-photography-{0}.jpg' alt = '{1} {2}' /></a>", i, studioLocation[locCounter], studioType[typeCounter]);
+                string imageLink = string.Format("<a href='../images/portfolio/raleigh-durham-wedding-photography-{0}.jpg'><img src = '../images/portfolio/thumbs/raleigh-durham-wedding-photography-thumb-{0}.jpg' alt = '{1} {2}' /></a>", i, studioLocation[locCounter], studioType[typeCounter]);
                 //string imageLink = string.Format("<img class='modalClick' src = '../images/portfolio/raleigh-durham-wedding-photography-{0}.jpg' alt = '{1} {2}' />", i, studioLocation[locCounter], studioType[typeCounter]);
 
                 //<a href='~/images/portfolio/raleigh-durham-wedding-photography-top-6.jpg'><img src = "~/images/portfolio/raleigh-durham-wedding-photography-top-6.jpg" alt = 'Durham Wedding Photography' >
