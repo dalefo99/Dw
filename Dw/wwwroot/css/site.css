@@ -48,6 +48,14 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+
+    background-image: url(../images/raleigh-durham-wedding-photography-header-1.jpg);
+    background-position: center;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .section-content {

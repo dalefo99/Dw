@@ -6,20 +6,10 @@
     ViewData["URL"] = "https://" + @Request.Host + @Request.Path;
 }
 
-<header class="fullscreen-header mobile-header d-lg-none" id="mobileheader">
+<header class="fullscreen-header" id="mainHeader">
     @Html.Partial("_MainNavigation")
 
-    <div class="carousel-caption d-md-block">
-        <button id="mobilebtn" class="btn btn-lg btn-blue-grey">Enter</button>
-    </div>
-
-</header>
-
-<header class="fullscreen-header d-none d-lg-block">
-    @Html.Partial("_MainNavigation")
-
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide d-none d-lg-block" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -62,12 +52,12 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-
-        <div class="carousel-caption d-md-block">
-            <button id="mainbtn" class="btn btn-lg btn-blue-grey">Enter</button>
-        </div>
+    </div>
 
 
+
+    <div class="carousel-caption d-md-block">
+        <button id="mainbtn" class="btn btn-lg btn-blue-grey">Enter</button>
     </div>
 
 
@@ -259,11 +249,7 @@
    //});
 
     $("#mainbtn").click(function () {
-        $("html,body").animate({ scrollTop: $('#carouselExampleIndicators').prop("scrollHeight") }, 1000);
-    });
-
-    $("#mobilebtn").click(function () {
-        $("html,body").animate({ scrollTop: $('#mobileheader').prop("scrollHeight") }, 1000);
+        $("html,body").animate({ scrollTop: $('#mainHeader').prop("scrollHeight") }, 1000);
     });
 
 
