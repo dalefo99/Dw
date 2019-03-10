@@ -1,0 +1,140 @@
+﻿@page
+@{
+    ViewData["Title"] = "52 Week Photography Challenge for 2019";
+    ViewData["Description"] = "Take your photography to the next level with this 52 week photography challenge for 2019 presented by Dogwood Photography";
+    ViewData["URL"] = "https://" + @Request.Host + @Request.Path;
+    ViewData["ChallengePage"] = "True";
+}
+<header>
+    @Html.Partial("_MainNavigation")
+
+    <!-- Full Screen Hero -->
+    <div id="introHero" class="module view d-none d-md-block" data-background="/images/durham-photography-header-1.jpg">
+        <div class="container-fluid mask rgba-white-light d-flex align-items-end justify-content-center">
+            <div class="module-tagline text-center">
+                <h5 class="dw-font-alt text-muted my-4">Dogwood Photography  <i class="fa fa-camera-retro"></i>  Durham, NC</h5>
+            </div>
+        </div>
+    </div>
+    <!-- /HERO -->
+</header>
+
+<!-- Main Layout -->
+<main>
+    <section class="section-content container-fluid p-1 p-lg-5">
+        <!-- MODULE TITLE -->
+        <div class="row pt-5 pt-lg-0 mt-5 mt-lg-0">
+            <div class="col-12">
+                <h6 class="text-center font-italic">Dogwood Photography Presents:</h6>
+                <h2 class="text-center">52 Week Photography Challenge for 2019</h2>
+            </div>
+        </div>
+        <!-- /MODULE TITLE -->
+        <div class="row p-1 p-lg-5">
+            <div class="col-12">
+                <p>The annual Dogwood 52 Week Photography Challenge has been an amazing success, with tens of thousands of photographers participating from around the world. Join us in 2019 for year 4 of the challenge!</p>                <p>
+                <p>Each photographer is on their own journey, and only competing with themselves from week to week. If you wish to form a challenge group and compete with others based on this list, you are welcome to do so! If you do form a challenge group drop me an invite I would love to watch the progress.</p>
+                <h4>Weekly Challenge Categories:</h4>
+                <p>Each week, the weekly challenge will be in one of 3 categories:</p>
+                <ul>
+                    <li><strong>Story Telling:</strong> Good photographers can take beautiful images of something. Great photographers can tell a story with an image. In this category you will take a prompt and turn it into a photographic story.</li>
+                    <li><strong>Compositional Eye:</strong> In past challenges we have explored the rules of composition. This year we push the rules even further by using them in specific ways to train your compositional eye.</li>
+                    <li><strong>Inspiration:</strong> In this wide-open category, we start with a simple inspiration. Use this inspiration as creatively as you can. There are no rules so feel free to think outside of the box.</li>
+                </ul>
+                <h4>How to share your images</h4>
+                <p>I highly encourage sharing your work each week. I know it’s hard to put yourself out there, but it is an important part of growing as a photographer. If you want to share your images with the rest of the photographers who are taking part in the challenge I recommend the following hashtags:  #dogwood52, #dogwood2019, and #dogwoodweek[NUMBER] (ex: #dogwoodweek1, #dogwoodweek2).</p>
+                <p>If you run into others who are also participating and sharing, be sure and comment on their image!</p>
+                <h4>Some places to share your work:</h4>
+                <ul>
+                    <li>Join the Facebook Group <em>Official Dogwood Photography Challenge</em> at: <a target="_blank" href="https://www.facebook.com/groups/dogwood.52.challenge/">https://www.facebook.com/groups/dogwood.52.challenge/</a></li>
+                    <li>Share your work on Instagram, Twitter, Facebook, Pinterest, or other hashtag friendly social media sites with the hashtags listed above.</li>
+                    <li>Share your work in your favorite photography forum… and even encourage others to participate.</li>
+                    <li>Share your work via websites dedicated to photographers like Flickr.com or 500Pix.com.</li>
+                </ul>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="section-content container-fluid p-1 p-lg-5">
+
+        <div class="row p-0 p-lg-5">
+            <div class="col-12">
+                <h2 class="text-center">The Challenge List</h2>
+            </div>
+        </div>
+        <!-- /MODULE TITLE -->
+
+        <div class="row p-1 p-lg-5">
+            <div class="col-12">
+                <div id="theList">
+                    <table class="table table-striped">
+
+                        <tr><td class='text-nowrap'>Week 1</td> <td>Story Telling: Self-Portrait</td><td>Take a picture that tells us who you are, without actually showing your face.</td></tr>
+                        <tr><td class='text-nowrap'>Week 2</td> <td>Composition: Rule of Thirds Motion</td><td>You already know what the rule of thirds is, now is the time to use it. Use Rule of Thirds to show motion in your picture.</td></tr>
+                        <tr><td class='text-nowrap'>Week 3</td> <td>Inspiration: Black and White</td><td> Your inspiration this week is to simply take an amazing Black and White photograph of any subject you want.</td></tr>
+                        <tr><td class='text-nowrap'>Week 4</td> <td>Story Telling: Warmth</td><td>Tell a story that makes us feel warm inside.</td></tr>
+                        <tr><td class='text-nowrap'>Week 5</td> <td>Composition: Symmetry Landscape</td><td>Landscape is one of the most practiced type of photography. Use Symmetry in a Landscape to create a new viewpoint for this week's image.</td></tr>
+                        <tr><td class='text-nowrap'>Week 6</td> <td>Inspiration: #NoFilter</td><td>No limit on what you shoot this week, as long as the image is pure. No filters, presets or other edits. Basic exposure corrections only this week.</td></tr>
+                        <tr><td class='text-nowrap'>Week 7</td> <td>Story Telling: Love Story</td><td>Make us feel the love in this week's photo. Tell a love story in one image.</td></tr>
+                        <tr><td class='text-nowrap'>Week 8</td> <td>Composition: Leading Lines</td><td>It is easy to use Leading Lines to show depth in an image or guide the eye to a specific spot in the image. Instead, this week use leading lines to show the concept of infinity.</td></tr>
+                        <tr><td class='text-nowrap'>Week 9</td> <td>Inspiration: Mood</td><td>Your Artistic Inspiration this week is the mood you are feeling today. Take that mood and use it to create art.</td></tr>
+                        <tr><td class='text-nowrap'>Week 10</td> <td>Story Telling: Hometown</td><td>Tell us the story of your hometown. It could be a famous landmark, something the town is known for, or even just your favorite place to relax.</td></tr>
+                        <tr><td class='text-nowrap'>Week 11</td> <td>Composition: Fill the Frame</td><td>Using Fill the Frame is a great way to isolate your subject and create interest in your photo. Can you do it with only one color in the frame? Fill the Frame with one color.</td></tr>
+                        <tr><td class='text-nowrap'>Week 12</td> <td>Inspiration: Trash</td><td>Trash is your inspiration.  Tell a story or create something beautiful.</td></tr>
+                        <tr><td class='text-nowrap'>Week 13</td> <td>Story Telling: New Beginnings</td><td>Our world is full of circular patterns; as some things end, others begin.  Tell us a story of a New Beginning.</td></tr>
+                        <tr><td class='text-nowrap'>Week 14</td> <td>Composition: Center Frame Portrait</td><td>Center Framed composition is a great way to isolate your subject.  Use this knowledge to create a portrait that exhibits loneliness.</td></tr>
+                        <tr><td class='text-nowrap'>Week 15</td> <td>Inspiration: Anonymous</td><td>This week's inspiration is Anonymous. Interpret this how you wish.</td></tr>
+                        <tr><td class='text-nowrap'>Week 16</td> <td>Story Telling: Shadow</td><td>Tell a story.  Make it compelling while only using shadow.</td></tr>
+                        <tr><td class='text-nowrap'>Week 17</td> <td>Composition: Balance</td><td>Balanced composition is pretty straightforward, unless you are trying to shoot in the "Accidental Renaissance" style. So shoot a balanced image in the Accidental Renaissance style.</td></tr>
+                        <tr><td class='text-nowrap'>Week 18</td> <td>Inspiration: Weight or Mass</td><td>Heavy as a stone, light as a feather. Find inspiration and shoot an amazing photograph.</td></tr>
+                        <tr><td class='text-nowrap'>Week 19</td> <td>Story Telling: Aging</td><td>Love it or hate it, aging is something we all experience. So tell us the story of Aging in a single photograph.</td></tr>
+                        <tr><td class='text-nowrap'>Week 20</td> <td>Composition: Negative Space</td><td>Create a powerful landscape using Negative Space.</td></tr>
+                        <tr><td class='text-nowrap'>Week 21</td> <td>Inspiration: Serenity</td><td>What does Serenity mean to you?</td></tr>
+                        <tr><td class='text-nowrap'>Week 22</td> <td>Story Telling: Stranger</td><td>It is easy to tell the story of someone you know. So for this week's challenge I want you to tell the story of a stranger.</td></tr>
+                        <tr><td class='text-nowrap'>Week 23</td> <td>Composition: Leading Lines</td><td>You have already used leading lines to show Infinity.  Now try to use strong leading lines in food photography.</td></tr>
+                        <tr><td class='text-nowrap'>Week 24</td> <td>Inspiration: Who inspires you</td><td>Inspiration comes from many places. Tell us about who inspires you.</td></tr>
+                        <tr><td class='text-nowrap'>Week 25</td> <td>Story Telling: Freedom</td><td>Freedom means many things to many people. Tell us a story about what Freedom means to you.</td></tr>
+                        <tr><td class='text-nowrap'>Week 26</td> <td>Composition: Geometry</td><td>We live in a world surrounded by geometry.  Use Geometry in your photo this week.</td></tr>
+                        <tr><td class='text-nowrap'>Week 27</td> <td>Inspiration: Gratitude</td><td>What are you grateful for? Show us.</td></tr>
+                        <tr><td class='text-nowrap'>Week 28</td> <td>Story Telling: Your Culture</td><td>Photographers participating in the challenge come from nearly every country and culture. Tell us the story of your culture.</td></tr>
+                        <tr><td class='text-nowrap'>Week 29</td> <td>Composition: Depth of Field</td><td>Depth of Field is a great way to isolate your subject. Instead, for the challenge though I want you to use DoF to make a subject appear part of something larger.</td></tr>
+                        <tr><td class='text-nowrap'>Week 30</td> <td>Inspiration: Exit</td><td>"Every exit is an entry to somewhere else". Be inspired by the Exit this week.</td></tr>
+                        <tr><td class='text-nowrap'>Week 31</td> <td>Story Telling: Friends and Family</td><td>Telling the story of someone you know well is sometimes the hardest story to tell.</td></tr>
+                        <tr><td class='text-nowrap'>Week 32</td> <td>Composition: Frame within the Frame</td><td>Using only natural elements, frame your subject. No actual picture frames allowed.</td></tr>
+                        <tr><td class='text-nowrap'>Week 33</td> <td>Inspiration: Tell a Lie</td><td>It is said that the "Camera Never Lies".  Prove it wrong.</td></tr>
+                        <tr><td class='text-nowrap'>Week 34</td> <td>Story Telling: Color without Color</td><td>Tell a colorful story, but do it in black and white.</td></tr>
+                        <tr><td class='text-nowrap'>Week 35</td> <td>Composition: Symmetry Portrait</td><td>Symmetry is a strong compositional technique most often used in landscapes and architecture. So break the mold by using Symmetry in a portrait.</td></tr>
+                        <tr><td class='text-nowrap'>Week 36</td> <td>Inspiration: Your Habits</td><td>Some habits are good, and some are bad.  Your inspiration this week is either.</td></tr>
+                        <tr><td class='text-nowrap'>Week 37</td> <td>Story Telling: Seasons</td><td>The weather is changing! Find inspiration in the seasons. </td></tr>
+                        <tr><td class='text-nowrap'>Week 38</td> <td>Composition: Rule of Odds</td><td>The rule of odds is easy enough to understand and employ. So use the rule of odds in an Urbanscape/Architecture photo.</td></tr>
+                        <tr><td class='text-nowrap'>Week 39</td> <td>Inspiration: The Elements</td><td>Earth, Fire, Wind, Rain, and Spirit. Find inspiration in the elements of our world.</td></tr>
+                        <tr><td class='text-nowrap'>Week 40</td> <td>Story Telling: Modern Convenience</td><td>What modern convenience of 2019 can not you live without? Create an image that looks like an advertisement for your favorite Modern Convenience.</td></tr>
+                        <tr><td class='text-nowrap'>Week 41</td> <td>Composition: Color Theory</td><td>Color Theory is a huge part of composition that most photographers don't explore.  So it is time to explore it. Use Color Grading to create an image that looks like it is a still from a movie.</td></tr>
+                        <tr><td class='text-nowrap'>Week 42</td> <td>Inspiration: Work Work Work</td><td>Work, let it inspire you this week.</td></tr>
+                        <tr><td class='text-nowrap'>Week 43</td> <td>Story Telling: Film Noir</td><td>Film Noir is a dark and moody type of photography well suited to storytelling. So tell us a story using Film Noir.</td></tr>
+                        <tr><td class='text-nowrap'>Week 44</td> <td>Composition: Viewpoint</td><td>Changing your viewpoint creates a different perspective and is often used by photographers to create interest. Shoot this week from the viewpoint of another person.</td></tr>
+                        <tr><td class='text-nowrap'>Week 45</td> <td>Inspiration: Musical</td><td>Music is part of the soul, so let it inspire you this week.</td></tr>
+                        <tr><td class='text-nowrap'>Week 46</td> <td>Story Telling: 7 Deadly Sins</td><td>The 7 deadly sins are Pride, Envy, Gluttony, Lust, Anger, Greed and Sloth. Tell us a compelling story about one of the 7 deadly sins.</td></tr>
+                        <tr><td class='text-nowrap'>Week 47</td> <td>Composition: Rule of Thirds Emotion</td><td>The rules of thirds is so popular because it is so versatile.  This week use the rule of thirds to show emotion.</td></tr>
+                        <tr><td class='text-nowrap'>Week 48</td> <td>Inspiration: Current Events</td><td>What is happening in the world today? Be inspired by current events.</td></tr>
+                        <tr><td class='text-nowrap'>Week 49</td> <td>Story Telling: Storms</td><td>Storms are a powerful force of nature. Show us weather at its best.</td></tr>
+                        <tr><td class='text-nowrap'>Week 50</td> <td>Composition: Patterns</td><td>Patterns/Repetition are another well known compositional rule, but have you ever tried to use it in Macro Photography? Well now you can!</td></tr>
+                        <tr><td class='text-nowrap'>Week 51</td> <td>Inspiration: Food</td><td>Be inspired by Food. Yes, it really is that easy this week. You made it this far you deserve the break. A sweet, delicious break.</td></tr>
+                        <tr><td class='text-nowrap'>Week 52</td> <td>Story Telling: Self-Portrait</td><td>In the first week you took a self portrait and told us who you think you are. To finish this off take a self portrait that shows us who others think you are.</td></tr>
+
+                    </table>
+                    <hr />
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+</main>
+
